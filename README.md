@@ -13,15 +13,6 @@ Once the `hc_circ_rna_hardcoded.sh` script is launched, the user is prompted to:
 
 The script will then automatically download the dataset, perform preprocessing, align reads, and run the selected circRNA detection tool.
 
-## STEP1: Make sure target directory exists
-
-```bash
-cd /mnt/Data/research
-# Ensure environment.yml is present
-ls environment.yml
-```
-
-
 ## STEP2: Make sure target directory exists
 
 ```bash
