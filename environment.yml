@@ -1,0 +1,27 @@
+name: circRNA_pipeline
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=2.7
+  - pip
+  - numpy
+  - pysam
+  - pybedtools
+  - fastqc
+  - sra-tools
+  - samtools
+  - bedtools
+  - hisat2
+  - star=2.7.9a
+  - bwa
+  - bowtie2
+  - htseq
+  - picard
+  - gatk4
+  - openjdk=8
+  - perl
+  - awk
+  - circRNA_finder
+  - pip:
+      - pysam
